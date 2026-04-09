@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Not Processed – Hooaij</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        color: #4a4a4a;
+        max-width: 620px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f6f8;
+      }
+      .email-container {
+        background-color: #ffffff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+      /* ── Header ─────────────────────────── */
+      .header {
+        background-color: #1e1e1e;
+        padding: 28px 30px;
+        text-align: center;
+      }
+      .header img {
+        max-width: 140px;
+        height: auto;
+        display: block;
+        margin: 0 auto 12px;
+      }
+      .header .tagline {
+        color: #bf946f;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 0;
+      }
+      /* ── Declined Banner ────────────────── */
+      .declined-banner {
+        background: linear-gradient(135deg, #c0392b 0%, #922b21 100%);
+        padding: 28px 30px;
+        text-align: center;
+      }
+      .declined-banner .icon {
+        font-size: 44px;
+        display: block;
+        margin-bottom: 10px;
+      }
+      .declined-banner h2 {
+        color: #ffffff;
+        margin: 0 0 6px;
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .declined-banner p {
+        color: rgba(255, 255, 255, 0.85);
+        margin: 0;
+        font-size: 13px;
+      }
+      /* ── Content ────────────────────────── */
+      .content {
+        padding: 34px;
+      }
+      .content p {
+        color: #4a4a4a;
+        margin: 0 0 14px;
+        font-size: 15px;
+      }
+      .content h3 {
+        color: #121212;
+        font-size: 16px;
+        margin: 0 0 10px;
+        font-weight: 700;
+      }
+      /* ── Attempt Details ────────────────── */
+      .details-box {
+        background-color: #fdf2f2;
+        border-left: 4px solid #c0392b;
+        border-radius: 0 8px 8px 0;
+        padding: 16px 20px;
+        margin: 20px 0;
+      }
+      .detail-row {
+        display: table;
+        width: 100%;
+        padding: 6px 0;
+        border-bottom: 1px dashed #f5c6cb;
+        font-size: 14px;
+      }
+      .detail-row:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+      .detail-label {
+        display: table-cell;
+        font-weight: 700;
+        color: #121212;
+        width: 140px;
+        vertical-align: top;
+      }
+      .detail-value {
+        display: table-cell;
+        color: #4a4a4a;
+        vertical-align: top;
+      }
+      /* ── Reasons List ───────────────────── */
+      .reasons-box {
+        background-color: #f5f6f8;
+        border-radius: 8px;
+        padding: 18px 22px;
+        margin: 20px 0;
+      }
+      .reasons-box ul {
+        margin: 10px 0 0;
+        padding-left: 20px;
+      }
+      .reasons-box ul li {
+        margin-bottom: 8px;
+        font-size: 14px;
+        color: #4a4a4a;
+      }
+      /* ── Reassurance Box ────────────────── */
+      .reassurance-box {
+        background-color: #f0faf4;
+        border: 1px solid #a9d9b8;
+        border-radius: 8px;
+        padding: 14px 18px;
+        margin: 20px 0;
+        font-size: 14px;
+        color: #2d6a4f;
+      }
+      .reassurance-box strong {
+        color: #1b5e38;
+      }
+      /* ── CTA Button ─────────────────────── */
+      .btn-wrap {
+        text-align: center;
+        margin: 28px 0 10px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 14px 36px;
+        background-color: #e57825;
+        color: #ffffff !important;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 15px;
+      }
+      .btn-secondary {
+        display: inline-block;
+        padding: 12px 28px;
+        background-color: transparent;
+        color: #e57825 !important;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 14px;
+        border: 2px solid #e57825;
+        margin-left: 12px;
+      }
+      hr {
+        border: none;
+        border-top: 1px solid #eaeaea;
+        margin: 24px 0;
+      }
+      /* ── Footer ─────────────────────────── */
+      .footer {
+        background-color: #f5f6f8;
+        padding: 22px 34px;
+        border-top: 1px solid #eaeaea;
+        text-align: center;
+      }
+      .footer p {
+        margin: 0 0 6px;
+        font-size: 14px;
+        color: #4a4a4a;
+      }
+      .footer .brand {
+        color: #e57825;
+        font-weight: 700;
+      }
+      .footer .disclaimer {
+        font-size: 12px;
+        color: #888888;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <!-- Header -->
+      <div class="header">
+        <img
+          src="https://hooaij.com/wp-content/uploads/2026/02/new-logo.png"
+          alt="Hooaij Logo"
+        />
+        <p class="tagline">Payment Notice</p>
+      </div>
+
+      <!-- Declined Banner -->
+      <div class="declined-banner">
+        <span class="icon">❌</span>
+        <h2>Payment Not Processed</h2>
+        <p>We were unable to complete your transaction</p>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        <p>Hello <strong>{{customer_name}}</strong>,</p>
+        <p>
+          Unfortunately, your recent payment of
+          <strong>${{amount_usd}}</strong> for
+          <strong>{{product_name}}</strong> could not be processed.
+          <strong>No funds have been taken from your account.</strong>
+        </p>
+
+        <h3>Attempted Transaction Details</h3>
+        <div class="details-box">
+          <div class="detail-row">
+            <span class="detail-label">Product:</span>
+            <span class="detail-value">{{product_name}}</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Amount:</span>
+            <span class="detail-value">${{amount_usd}}</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Attempt Date:</span>
+            <span class="detail-value">{{order_date}}</span>
+          </div>
+        </div>
+
+        <div class="reassurance-box">
+          ✅ <strong>No charge has been made.</strong> Your payment method has
+          not been debited. You are safe to try again.
+        </div>
+
+        <div class="reasons-box">
+          <strong>Common reasons this can happen:</strong>
+          <ul>
+            <li>Insufficient funds or card limit reached</li>
+            <li>Card declined by your bank for online transactions</li>
+            <li>Incorrect card details entered</li>
+            <li>PayPal session timed out or was interrupted</li>
+            <li>Temporary issue with the payment processor</li>
+          </ul>
+        </div>
+
+        <p>
+          You can try again using a different card or payment method. If you
+          continue experiencing issues, please contact your bank or reach out to
+          our support team.
+        </p>
+
+        <hr />
+
+        <div class="btn-wrap">
+          <a href="{{retry_url}}" class="btn">Try Again →</a>
+          <a href="mailto:info@hooaij.com" class="btn-secondary"
+            >Contact Support</a
+          >
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <p>
+          Need help? Reach our support team:<br />
+          📧
+          <a href="mailto:info@hooaij.com" style="color: #e57825"
+            >info@hooaij.com</a
+          >
+          &nbsp;|&nbsp; 📞 +234 803 580 9083
+        </p>
+        <p>Best regards,<br /><span class="brand">The Hooaij Team</span></p>
+        <p class="disclaimer">
+          This is an automated notice from the Hooaij payment system.<br />
+          &copy; {{year}} Hooaij. All Rights Reserved. Designed by
+          <strong>Halogenius Ideas</strong>.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

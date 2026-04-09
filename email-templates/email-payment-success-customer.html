@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Confirmed – Hooaij</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        color: #4a4a4a;
+        max-width: 620px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f6f8;
+      }
+      .email-container {
+        background-color: #ffffff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+      /* ── Header ─────────────────────────── */
+      .header {
+        background-color: #1e1e1e;
+        padding: 28px 30px;
+        text-align: center;
+      }
+      .header img {
+        max-width: 140px;
+        height: auto;
+        display: block;
+        margin: 0 auto 12px;
+      }
+      .header .tagline {
+        color: #e57825;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 0;
+      }
+      /* ── Success Banner ─────────────────── */
+      .success-banner {
+        background: linear-gradient(135deg, #e57825 0%, #cc6012 100%);
+        padding: 30px 30px;
+        text-align: center;
+      }
+      .success-banner .icon {
+        font-size: 48px;
+        display: block;
+        margin-bottom: 10px;
+      }
+      .success-banner h2 {
+        color: #ffffff;
+        margin: 0 0 6px 0;
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: -0.3px;
+      }
+      .success-banner p {
+        color: rgba(255, 255, 255, 0.88);
+        margin: 0;
+        font-size: 14px;
+      }
+      /* ── Content ────────────────────────── */
+      .content {
+        padding: 36px 34px;
+      }
+      .content p {
+        color: #4a4a4a;
+        margin: 0 0 14px 0;
+        font-size: 15px;
+      }
+      .content h3 {
+        color: #121212;
+        font-size: 16px;
+        margin: 0 0 12px 0;
+        font-weight: 700;
+      }
+      /* ── Details Box ────────────────────── */
+      .details-box {
+        background-color: #f5f6f8;
+        border-left: 4px solid #e57825;
+        border-radius: 0 8px 8px 0;
+        padding: 18px 22px;
+        margin: 22px 0;
+      }
+      .detail-row {
+        display: table;
+        width: 100%;
+        padding: 7px 0;
+        border-bottom: 1px dashed #eaeaea;
+        font-size: 14px;
+      }
+      .detail-row:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+      .detail-label {
+        display: table-cell;
+        font-weight: 700;
+        color: #121212;
+        width: 140px;
+        vertical-align: top;
+      }
+      .detail-value {
+        display: table-cell;
+        color: #4a4a4a;
+        vertical-align: top;
+      }
+      /* ── Activation Code Box ────────────── */
+      .activation-box {
+        background-color: #121212;
+        border-radius: 8px;
+        padding: 22px 24px;
+        text-align: center;
+        margin: 24px 0;
+      }
+      .activation-box p {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 13px;
+        margin: 0 0 10px 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .activation-code {
+        color: #e57825;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        display: block;
+        margin-bottom: 8px;
+      }
+      .activation-box small {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 12px;
+      }
+      /* ── Info Box ───────────────────────── */
+      .info-box {
+        background-color: #fff8f2;
+        border: 1px solid #f0c490;
+        border-radius: 8px;
+        padding: 16px 20px;
+        margin: 20px 0;
+        font-size: 14px;
+        color: #4a4a4a;
+      }
+      .info-box strong {
+        color: #e57825;
+      }
+      /* ── CTA Button ─────────────────────── */
+      .btn-wrap {
+        text-align: center;
+        margin: 28px 0 10px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 14px 36px;
+        background-color: #e57825;
+        color: #ffffff !important;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 15px;
+        letter-spacing: 0.3px;
+      }
+      /* ── Divider ────────────────────────── */
+      .divider {
+        border: none;
+        border-top: 1px solid #eaeaea;
+        margin: 24px 0;
+      }
+      /* ── Footer ─────────────────────────── */
+      .footer {
+        background-color: #f5f6f8;
+        padding: 24px 34px;
+        border-top: 1px solid #eaeaea;
+        text-align: center;
+      }
+      .footer p {
+        margin: 0 0 6px 0;
+        font-size: 14px;
+        color: #4a4a4a;
+      }
+      .footer .brand {
+        font-weight: 700;
+        color: #e57825;
+      }
+      .footer .disclaimer {
+        font-size: 12px;
+        color: #888888;
+        margin-top: 12px;
+        line-height: 1.5;
+      }
+      .footer .contact-links {
+        font-size: 13px;
+        color: #888888;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <!-- Header -->
+      <div class="header">
+        <img
+          src="https://hooaij.com/wp-content/uploads/2026/02/new-logo.png"
+          alt="Hooaij Logo"
+        />
+        <p class="tagline">Payment Receipt</p>
+      </div>
+
+      <!-- Success Banner -->
+      <div class="success-banner">
+        <span class="icon">✅</span>
+        <h2>Payment Confirmed!</h2>
+        <p>Your transaction has been successfully processed</p>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        <p>Hello <strong>{{customer_name}}</strong>,</p>
+        <p>
+          Great news! Your payment of <strong>${{amount_usd}}</strong> for
+          <strong>{{product_name}}</strong> has been confirmed. Your order is
+          now being processed. Please keep this receipt for your records.
+        </p>
+
+        <h3>Transaction Details</h3>
+        <div class="details-box">
+          <div class="detail-row">
+            <span class="detail-label">Receipt No:</span>
+            <span class="detail-value"><strong>{{receipt_no}}</strong></span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Product:</span>
+            <span class="detail-value">{{product_name}}</span>
+          </div>
+          {{#if_quantity}}
+          <div class="detail-row">
+            <span class="detail-label">Quantity:</span>
+            <span class="detail-value">{{quantity}}</span>
+          </div>
+          {{/if_quantity}} {{#if_plan}}
+          <div class="detail-row">
+            <span class="detail-label">Plan:</span>
+            <span class="detail-value">{{plan_tier}}</span>
+          </div>
+          {{/if_plan}}
+          <div class="detail-row">
+            <span class="detail-label">Amount Paid:</span>
+            <span class="detail-value"
+              ><strong style="color: #e57825">${{amount_usd}}</strong> (≈
+              ₦{{amount_ngn}})</span
+            >
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">PayPal Ref:</span>
+            <span
+              class="detail-value"
+              style="font-size: 12px; word-break: break-all"
+              >{{paypal_capture_id}}</span
+            >
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Date:</span>
+            <span class="detail-value">{{order_date}}</span>
+          </div>
+        </div>
+
+        <!-- Activation Code (subscriptions only) -->
+        {{#if_subscription}}
+        <h3>Your Activation Code</h3>
+        <div class="activation-box">
+          <p>Copy and keep this code safe — you will need it for activation</p>
+          <span class="activation-code">{{unique_code}}</span>
+          <small
+            >Valid from {{order_date}} · Subscription period: 1 Month</small
+          >
+        </div>
+        <div class="info-box">
+          <strong>Next Steps:</strong> A Hooaij representative will contact you
+          to schedule installation and activate your service using the code
+          above. This is a one-time payment for your first month; subsequent
+          billing will be managed separately.
+        </div>
+        {{/if_subscription}}
+
+        <!-- Shipping info (tachoscope only) -->
+        {{#if_tachoscope}}
+        <div class="info-box">
+          <strong>Delivery Information:</strong> Your Tachoscope device will be
+          dispatched to the address below. Our installation team will contact
+          you to arrange a delivery time.<br /><br />
+          <strong>Shipping Address:</strong><br />
+          {{shipping_address}}
+        </div>
+        {{/if_tachoscope}}
+
+        <hr class="divider" />
+
+        <p>
+          If you have any questions about your order, please don't hesitate to
+          contact our support team.
+        </p>
+
+        <div class="btn-wrap">
+          <a href="{{products_url}}" class="btn">Explore More Products →</a>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <p>Best regards,<br /><span class="brand">The Hooaij Team</span></p>
+        <p class="contact-links">
+          📧 info@hooaij.com &nbsp;|&nbsp; 📞 +234 803 580 9083
+        </p>
+        <p class="disclaimer">
+          This is an automated receipt generated by the Hooaij order management
+          system.<br />
+          &copy; {{year}} Hooaij. All Rights Reserved. Designed by
+          <strong>Halogenius Ideas</strong>.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

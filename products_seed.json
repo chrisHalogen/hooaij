@@ -1,0 +1,674 @@
+[
+  {
+    "sku": "B-N",
+    "product_type": "tachoscope",
+    "name": "Bicycle Tachoscope - Normal",
+    "description": "The Normal Bicycle Tachoscope provides a clean digital speed readout mounted directly on your bicycle frame, giving riders real-time velocity data at a glance. Ideal for engineers and technologists who need basic speed monitoring during field trials or urban commuting. Its compact, lightweight form factor ensures it does not interfere with the bicycle's handling.",
+    "price_ngn": 75000,
+    "length_cm": 12.5,
+    "width_cm": 7.0,
+    "height_cm": 3.5,
+    "weight_kg": 0.35,
+    "features": ["Digital speed display"]
+  },
+  {
+    "sku": "B-S",
+    "product_type": "tachoscope",
+    "name": "Bicycle Tachoscope - Special",
+    "description": "The Special Bicycle Tachoscope combines real-time digital speed display with an intelligent voice assistance system that alerts the rider whenever local speed limits are being approached or exceeded. Designed for safety-conscious cyclists operating in zones with variable speed regulations. The voice module uses clear audio cues so the rider stays informed without diverting their attention from the road.",
+    "price_ngn": 120000,
+    "length_cm": 12.5,
+    "width_cm": 7.0,
+    "height_cm": 3.5,
+    "weight_kg": 0.38,
+    "features": ["Digital speed display", "Voice assistance (speed limits)"]
+  },
+  {
+    "sku": "B-L",
+    "product_type": "tachoscope",
+    "name": "Bicycle Tachoscope - Lane Assist.",
+    "description": "The Lane Assist Bicycle Tachoscope features a dedicated voice guidance module that monitors and alerts the rider upon unintended lane crossing or deviation from their designated path. It is particularly suited to cyclists operating in multi-lane urban environments or shared road surfaces. The alert system is calibrated to react in real time without causing unnecessary distraction during normal riding.",
+    "price_ngn": 135000,
+    "length_cm": 12.5,
+    "width_cm": 7.0,
+    "height_cm": 3.5,
+    "weight_kg": 0.4,
+    "features": ["Voice assistance (lane crossing)"]
+  },
+  {
+    "sku": "B-NS",
+    "product_type": "tachoscope",
+    "name": "Bicycle Tachoscope - Normal + Special",
+    "description": "This combined variant merges digital speed display with speed-limit voice assistance in a single unit, offering both real-time velocity tracking and audio speed-zone alerts. It is the recommended upgrade from the Normal model for cyclists who require both awareness of their current speed and advisory alerts in regulated zones. A practical choice for professional cyclists and field technicians who need complete speed situational awareness.",
+    "price_ngn": 120000,
+    "length_cm": 12.5,
+    "width_cm": 7.0,
+    "height_cm": 3.5,
+    "weight_kg": 0.42,
+    "features": ["Digital speed display", "Voice assistance (speed limits)"]
+  },
+  {
+    "sku": "B-NL",
+    "product_type": "tachoscope",
+    "name": "Bicycle Tachoscope - Normal + Lane Assist.",
+    "description": "Combining digital speed readout with lane-crossing voice guidance, this variant gives cyclists both visibility of their speed and real-time audio alerts when they deviate from their lane. It suits engineers working on road-use studies or urban mobility trials where lane discipline is critical. The two systems operate independently and simultaneously without interference.",
+    "price_ngn": 135000,
+    "length_cm": 12.5,
+    "width_cm": 7.0,
+    "height_cm": 3.5,
+    "weight_kg": 0.42,
+    "features": ["Digital speed display", "Voice assistance (lane crossing)"]
+  },
+  {
+    "sku": "B-SL",
+    "product_type": "tachoscope",
+    "name": "Bicycle Tachoscope - Special + Lane Assist.",
+    "description": "This variant pairs speed-limit voice guidance with lane-crossing alerts, focusing on the dual safety aspects of speed regulation and lane discipline without the basic numeric display. Ideal for cyclists who already have separate speed indicators but need advanced audio-based safety assistance during complex road navigation. Both voice systems are clearly distinguishable to avoid alert confusion.",
+    "price_ngn": 180000,
+    "length_cm": 13.0,
+    "width_cm": 7.5,
+    "height_cm": 4.0,
+    "weight_kg": 0.45,
+    "features": [
+      "Voice assistance (speed limits)",
+      "Voice assistance (lane crossing)"
+    ]
+  },
+  {
+    "sku": "B-NSL",
+    "product_type": "tachoscope",
+    "name": "Bicycle Tachoscope - Normal + Special + Lane Assist.",
+    "description": "The complete bicycle Tachoscope package integrates numeric speed display, speed-limit voice warnings, and lane-crossing audio alerts into one seamless unit. Designed for professional cycling researchers and safety-focused commuters who require full situational awareness in both speed management and lane discipline. All three systems operate concurrently with distinct audio tones to prevent alert overlap.",
+    "price_ngn": 180000,
+    "length_cm": 13.0,
+    "width_cm": 7.5,
+    "height_cm": 4.0,
+    "weight_kg": 0.48,
+    "features": [
+      "Digital speed display",
+      "Voice assistance (speed limits)",
+      "Voice assistance (lane crossing)"
+    ]
+  },
+  {
+    "sku": "T-N",
+    "product_type": "tachoscope",
+    "name": "Tricycle Tachoscope - Normal",
+    "description": "The Normal Tricycle Tachoscope delivers accurate digital speed readings on a robust display suited to the wider, heavier frame of a tricycle. It is ideal for commercial tricycle operators and transport researchers monitoring real-time velocity on Nigerian roads. The ruggedized casing withstands vibration from uneven terrain common in urban and rural routes.",
+    "price_ngn": 112500,
+    "length_cm": 14.0,
+    "width_cm": 8.0,
+    "height_cm": 4.0,
+    "weight_kg": 0.45,
+    "features": ["Digital speed display"]
+  },
+  {
+    "sku": "T-S",
+    "product_type": "tachoscope",
+    "name": "Tricycle Tachoscope - Special",
+    "description": "The Special Tricycle Tachoscope adds intelligent voice-based speed-limit alerts to the standard digital readout, helping tricycle operators stay compliant in speed-regulated corridors and markets. The combined system is especially valuable for tricycle hire services operating in mixed-traffic urban environments. Voice alerts are clearly audible over engine noise without driver distraction.",
+    "price_ngn": 157500,
+    "length_cm": 14.0,
+    "width_cm": 8.0,
+    "height_cm": 4.0,
+    "weight_kg": 0.48,
+    "features": ["Digital speed display", "Voice assistance (speed limits)"]
+  },
+  {
+    "sku": "T-L",
+    "product_type": "tachoscope",
+    "name": "Tricycle Tachoscope - Lane Assist.",
+    "description": "This Tricycle Lane Assist model provides voice-guided lane-crossing alerts to help three-wheeled vehicle operators maintain lane discipline on multi-lane roads and bridges. Given the wider footprint of tricycles, lane deviation risks are amplified, making this feature especially critical for long-distance cargo tricycles. The system monitors road boundaries in real time and issues clear audio cues before any lane breach.",
+    "price_ngn": 172500,
+    "length_cm": 14.0,
+    "width_cm": 8.0,
+    "height_cm": 4.0,
+    "weight_kg": 0.5,
+    "features": ["Voice assistance (lane crossing)"]
+  },
+  {
+    "sku": "T-NS",
+    "product_type": "tachoscope",
+    "name": "Tricycle Tachoscope - Normal + Special",
+    "description": "This combined unit gives tricycle operators both a real-time digital speed display and voice alerts when speed limits are being exceeded, providing a complete speed-awareness package for regulated routes. It is suited to passenger and freight tricycles that operate across both urban speed zones and open highways. Both systems share a single compact chassis, minimising dashboard clutter.",
+    "price_ngn": 157500,
+    "length_cm": 14.0,
+    "width_cm": 8.0,
+    "height_cm": 4.0,
+    "weight_kg": 0.52,
+    "features": ["Digital speed display", "Voice assistance (speed limits)"]
+  },
+  {
+    "sku": "T-NL",
+    "product_type": "tachoscope",
+    "name": "Tricycle Tachoscope - Normal + Lane Assist.",
+    "description": "Pairing a digital speed readout with lane-crossing voice guidance, this variant ensures tricycle operators know both how fast they are travelling and when they are drifting from their lane. It is an excellent safety tool for tricycles on busy expressways and dual-carriageways where lane discipline directly impacts passenger safety. The two modules operate in parallel without mutual interference.",
+    "price_ngn": 172500,
+    "length_cm": 14.0,
+    "width_cm": 8.0,
+    "height_cm": 4.0,
+    "weight_kg": 0.52,
+    "features": ["Digital speed display", "Voice assistance (lane crossing)"]
+  },
+  {
+    "sku": "T-SL",
+    "product_type": "tachoscope",
+    "name": "Tricycle Tachoscope - Special + Lane Assist.",
+    "description": "The Special + Lane Assist tricycle model combines speed-limit voice warnings with lane-deviation alerts, delivering dual audio guidance for operators who prioritise regulatory compliance and positional safety over raw speed data. This model suits commercial tricycle fleets operating in speed-enforced corridors and lane-marked arterial roads. Each voice system uses a distinct tone for immediate recognition.",
+    "price_ngn": 217500,
+    "length_cm": 15.0,
+    "width_cm": 9.0,
+    "height_cm": 4.5,
+    "weight_kg": 0.55,
+    "features": [
+      "Voice assistance (speed limits)",
+      "Voice assistance (lane crossing)"
+    ]
+  },
+  {
+    "sku": "T-NSL",
+    "product_type": "tachoscope",
+    "name": "Tricycle Tachoscope - Normal + Special + Lane Assist.",
+    "description": "The full-featured Tricycle Tachoscope integrates digital speed display, speed-limit voice alerts, and lane-crossing guidance into one unified dashboard unit built for professional tricycle operators. It is the definitive safety instrument for high-frequency transit tricycles covering both urban and inter-city routes. All three systems are factory-calibrated to work simultaneously without signal or audio overlap.",
+    "price_ngn": 217500,
+    "length_cm": 15.0,
+    "width_cm": 9.0,
+    "height_cm": 4.5,
+    "weight_kg": 0.58,
+    "features": [
+      "Digital speed display",
+      "Voice assistance (speed limits)",
+      "Voice assistance (lane crossing)"
+    ]
+  },
+  {
+    "sku": "T-NSL-SA",
+    "product_type": "tachoscope",
+    "name": "Tricycle Tachoscope - Special AIDS",
+    "description": "The Special AIDS Tricycle Tachoscope is engineered for operators with physical limitations, combining the complete Normal + Special + Lane Assist package with an automated steering-redirection mechanism that physically corrects lane deviations when the operator cannot respond in time. This advanced assistive system meets the highest road-safety standards for tricycles used in mobility-aid contexts. The steering module is precision-tuned to tricycle weight distribution for reliable, jerk-free corrections.",
+    "price_ngn": 487500,
+    "length_cm": 18.0,
+    "width_cm": 12.0,
+    "height_cm": 6.0,
+    "weight_kg": 1.2,
+    "features": [
+      "Normal + Special + Lane Assist",
+      "Automated steering redirection"
+    ]
+  },
+  {
+    "sku": "MB-N",
+    "product_type": "tachoscope",
+    "name": "Motor Bike Tachoscope - Normal",
+    "description": "The Normal Motor Bike Tachoscope delivers a high-visibility digital speed readout optimised for two-wheeled motorcycles operating at variable speeds on Nigerian roads. Its reinforced housing is vibration-resistant and weatherproof to endure the rigorous conditions of daily motorcycle commuting. This is the essential entry-level safety instrument for commercial dispatch riders and long-distance couriers.",
+    "price_ngn": 180000,
+    "length_cm": 15.0,
+    "width_cm": 9.0,
+    "height_cm": 4.5,
+    "weight_kg": 0.55,
+    "features": ["Digital speed display"]
+  },
+  {
+    "sku": "MB-S",
+    "product_type": "tachoscope",
+    "name": "Motor Bike Tachoscope - Special",
+    "description": "The Special Motor Bike Tachoscope pairs digital speed display with an audible speed-limit alert system calibrated for motorcycle speeds, giving riders immediate notification when they approach or exceed zone-specific limits. It is the preferred model for motorcycle taxis and logistics fleets that operate through multiple speed zones within a single journey. The voice alerts are helmet-speaker compatible for hands-free compliance.",
+    "price_ngn": 225000,
+    "length_cm": 15.0,
+    "width_cm": 9.0,
+    "height_cm": 4.5,
+    "weight_kg": 0.58,
+    "features": ["Digital speed display", "Voice assistance (speed limits)"]
+  },
+  {
+    "sku": "MB-L",
+    "product_type": "tachoscope",
+    "name": "Motor Bike Tachoscope - Lane Assist.",
+    "description": "The Lane Assist Motor Bike Tachoscope monitors and alerts the rider to lane deviation in real time via a clear voice cue, reducing the risk of unintended lane crossings at speed. Motorcyclists are particularly vulnerable during lane deviations, making this feature a critical safety upgrade for expressway and dual-carriageway commuters. The detection system is tuned to motorcycle widths and typical lane markings on Nigerian roads.",
+    "price_ngn": 240000,
+    "length_cm": 15.0,
+    "width_cm": 9.0,
+    "height_cm": 4.5,
+    "weight_kg": 0.6,
+    "features": ["Voice assistance (lane crossing)"]
+  },
+  {
+    "sku": "MB-NS",
+    "product_type": "tachoscope",
+    "name": "Motor Bike Tachoscope - Normal + Special",
+    "description": "This combined Motor Bike variant integrates digital speed monitoring with speed-limit voice alerts in a single streamlined unit, covering both real-time speed awareness and regulatory compliance for motorcyclists. It is ideally suited to fleet operators who need verifiable speed adherence across their motorcycle pool. The unified system requires only one dashboard mounting point.",
+    "price_ngn": 225000,
+    "length_cm": 15.0,
+    "width_cm": 9.0,
+    "height_cm": 4.5,
+    "weight_kg": 0.62,
+    "features": ["Digital speed display", "Voice assistance (speed limits)"]
+  },
+  {
+    "sku": "MB-NL",
+    "product_type": "tachoscope",
+    "name": "Motor Bike Tachoscope - Normal + Lane Assist.",
+    "description": "This variant combines digital speed display with lane-crossing voice alerts, offering motorcyclists simultaneous visibility of their speed and proactive lane-discipline guidance on multi-lane roads. It is a practical choice for inter-city motorcycle couriers who need both data visibility and safety assistance across long high-speed stretches. The two systems operate on independent circuits for maximum reliability.",
+    "price_ngn": 240000,
+    "length_cm": 15.0,
+    "width_cm": 9.0,
+    "height_cm": 4.5,
+    "weight_kg": 0.62,
+    "features": ["Digital speed display", "Voice assistance (lane crossing)"]
+  },
+  {
+    "sku": "MB-SL",
+    "product_type": "tachoscope",
+    "name": "Motor Bike Tachoscope - Special + Lane Assist.",
+    "description": "The Special + Lane Assist Motor Bike model focuses on dual audio safety, combining speed-limit alerts with lane-deviation warnings in a unit tailored for speed-managed expressways. Riders who already have GPS speed indicators will find this upgrade essential for maintaining both regulatory and positional safety simultaneously. Distinct audio signatures for each alert prevent rider confusion under high-traffic conditions.",
+    "price_ngn": 285000,
+    "length_cm": 16.0,
+    "width_cm": 10.0,
+    "height_cm": 5.0,
+    "weight_kg": 0.68,
+    "features": [
+      "Voice assistance (speed limits)",
+      "Voice assistance (lane crossing)"
+    ]
+  },
+  {
+    "sku": "MB-NSL",
+    "product_type": "tachoscope",
+    "name": "Motor Bike Tachoscope - Normal + Special + Lane Assist.",
+    "description": "The fully-featured Motor Bike Tachoscope integrates digital speed display, speed-limit voice advisory, and lane-crossing alerts in one compact unit engineered to motorcycle mounting specifications. This is the definitive safety instrument for professional motorcyclists, fleet managers, and road-safety researchers who demand complete situational awareness at all speeds. All three systems are factory-tested for simultaneous operation without interference.",
+    "price_ngn": 285000,
+    "length_cm": 16.0,
+    "width_cm": 10.0,
+    "height_cm": 5.0,
+    "weight_kg": 0.7,
+    "features": [
+      "Digital speed display",
+      "Voice assistance (speed limits)",
+      "Voice assistance (lane crossing)"
+    ]
+  },
+  {
+    "sku": "C-N",
+    "product_type": "tachoscope",
+    "name": "Car Tachoscope - Normal",
+    "description": "The Normal Car Tachoscope provides a precision digital speed readout designed to complement — or replace — a vehicle's factory speedometer with independently verified velocity data. Suitable for fleet managers, vehicle inspectors, and road-safety auditors who require an accurate secondary speed reference. The compact dashboard unit installs without modifying the vehicle's existing instrumentation.",
+    "price_ngn": 300000,
+    "length_cm": 18.0,
+    "width_cm": 12.0,
+    "height_cm": 6.0,
+    "weight_kg": 0.9,
+    "features": ["Digital speed display"]
+  },
+  {
+    "sku": "C-S",
+    "product_type": "tachoscope",
+    "name": "Car Tachoscope - Special",
+    "description": "The Special Car Tachoscope combines a digital speed display with an intelligent voice advisory system that warns the driver in real time when the vehicle is approaching or exceeding locally enforced speed limits. Designed for private motorists, commercial drivers, and fleet supervisors operating across speed-varied road networks. The voice module integrates with the car's audio system for clear, distraction-free alerts.",
+    "price_ngn": 345000,
+    "length_cm": 18.0,
+    "width_cm": 12.0,
+    "height_cm": 6.0,
+    "weight_kg": 0.95,
+    "features": ["Digital speed display", "Voice assistance (speed limits)"]
+  },
+  {
+    "sku": "C-L",
+    "product_type": "tachoscope",
+    "name": "Car Tachoscope - Lane Assist.",
+    "description": "The Lane Assist Car Tachoscope continuously monitors lane markings and issues a voice alert whenever the vehicle begins to cross into an adjacent lane without signalling. It is a critical safety feature for night driving, highway travel, and fatigued-driver scenarios where lane drift is most likely. The sensor module calibrates automatically to the lane widths of Nigerian highway standards.",
+    "price_ngn": 360000,
+    "length_cm": 18.0,
+    "width_cm": 12.0,
+    "height_cm": 6.0,
+    "weight_kg": 1.0,
+    "features": ["Voice assistance (lane crossing)"]
+  },
+  {
+    "sku": "C-NS",
+    "product_type": "tachoscope",
+    "name": "Car Tachoscope - Normal + Special",
+    "description": "This dual-function Car Tachoscope pairs verified digital speed data with voice-based speed-limit guidance, providing car drivers with both a precise reading of their current speed and an audio advisory when they enter or exceed regulatory speed thresholds. It is the recommended upgrade for commercial vehicle operators and private fleet owners who want documented speed compliance. Both systems share a single, unobtrusive dashboard unit.",
+    "price_ngn": 345000,
+    "length_cm": 18.0,
+    "width_cm": 12.0,
+    "height_cm": 6.0,
+    "weight_kg": 1.05,
+    "features": ["Digital speed display", "Voice assistance (speed limits)"]
+  },
+  {
+    "sku": "C-NL",
+    "product_type": "tachoscope",
+    "name": "Car Tachoscope - Normal + Lane Assist.",
+    "description": "Combining digital speed monitoring with lane-crossing voice alerts, this Car Tachoscope variant gives drivers real-time speed awareness alongside proactive notification of any unintended lane deviation. The pairing is especially valuable for motorists on unmarked or poorly-lit roads where lane position and speed management demand equal attention. Both modules are independently powered to ensure neither failure affects the other.",
+    "price_ngn": 360000,
+    "length_cm": 18.0,
+    "width_cm": 12.0,
+    "height_cm": 6.0,
+    "weight_kg": 1.05,
+    "features": ["Digital speed display", "Voice assistance (lane crossing)"]
+  },
+  {
+    "sku": "C-SL",
+    "product_type": "tachoscope",
+    "name": "Car Tachoscope - Special + Lane Assist.",
+    "description": "The Special + Lane Assist Car model provides simultaneous voice advisory for both speed-limit compliance and lane discipline, making it the ideal choice for drivers who already rely on a separate GPS speedometer but need advanced audio safety guidance. It is particularly suited to high-frequency taxi and ride-hailing operators who pass through multiple speed zones and lane-restricted corridors daily. Distinct audio tones ensure each alert type is instantly recognisable at a glance.",
+    "price_ngn": 405000,
+    "length_cm": 19.0,
+    "width_cm": 13.0,
+    "height_cm": 7.0,
+    "weight_kg": 1.15,
+    "features": [
+      "Voice assistance (speed limits)",
+      "Voice assistance (lane crossing)"
+    ]
+  },
+  {
+    "sku": "C-NSL",
+    "product_type": "tachoscope",
+    "name": "Car Tachoscope - Normal + Special + Lane Assist.",
+    "description": "The complete Car Tachoscope unifies digital speed display, speed-limit voice advisories, and lane-crossing alerts in one premium dashboard-mounted unit for maximum driver safety. It represents the highest level of non-assistive Tachoscope protection for private and commercial car users who demand full situational awareness on all road types. The system is pre-configured for Nigerian road regulations and highway standards.",
+    "price_ngn": 405000,
+    "length_cm": 19.0,
+    "width_cm": 13.0,
+    "height_cm": 7.0,
+    "weight_kg": 1.2,
+    "features": [
+      "Digital speed display",
+      "Voice assistance (speed limits)",
+      "Voice assistance (lane crossing)"
+    ]
+  },
+  {
+    "sku": "C-NSL-SA",
+    "product_type": "tachoscope",
+    "name": "Car Tachoscope - Special AIDS",
+    "description": "The Special AIDS Car Tachoscope is the most advanced vehicle-safety instrument in the range, combining the full Normal + Special + Lane Assist suite with an automated steering-redirection system that physically corrects the vehicle's course when a lane deviation is detected and the driver fails to respond. Engineered specifically for drivers with physical or reaction-time limitations, this model meets assistive-mobility safety standards for passenger vehicles. The steering module operates through a precision servo interface that is compatible with standard Nigerian vehicle steering columns.",
+    "price_ngn": 675000,
+    "length_cm": 25.0,
+    "width_cm": 18.0,
+    "height_cm": 12.0,
+    "weight_kg": 2.5,
+    "features": [
+      "Normal + Special + Lane Assist",
+      "Automated steering redirection"
+    ]
+  },
+  {
+    "sku": "BUTR-N",
+    "product_type": "tachoscope",
+    "name": "Bus & Truck Tachoscope - Normal",
+    "description": "The Normal Bus & Truck Tachoscope provides a large, high-visibility digital speed display engineered for the extended dashboards and operational demands of heavy commercial vehicles. Accurate real-time speed data supports driver compliance, fleet management oversight, and transport authority inspections. The unit is built to withstand the extreme vibration, heat, and electrical noise common in heavy-vehicle environments.",
+    "price_ngn": 450000,
+    "length_cm": 22.0,
+    "width_cm": 15.0,
+    "height_cm": 8.0,
+    "weight_kg": 1.5,
+    "features": ["Digital speed display"]
+  },
+  {
+    "sku": "BUTR-S",
+    "product_type": "tachoscope",
+    "name": "Bus & Truck Tachoscope - Special",
+    "description": "The Special Bus & Truck Tachoscope combines a robust digital speed display with a high-volume voice alert system calibrated to the longer stopping distances and speed-zone regulations applicable to heavy vehicles. It is designed for long-haul truck operators and commercial bus services that traverse multiple speed-regulated zones on inter-state highways. The voice advisory is tuned to override ambient cabin noise without the driver needing to adjust volume controls.",
+    "price_ngn": 495000,
+    "length_cm": 22.0,
+    "width_cm": 15.0,
+    "height_cm": 8.0,
+    "weight_kg": 1.6,
+    "features": ["Digital speed display", "Voice assistance (speed limits)"]
+  },
+  {
+    "sku": "BUTR-L",
+    "product_type": "tachoscope",
+    "name": "Bus & Truck Tachoscope - Lane Assist.",
+    "description": "The Lane Assist Bus & Truck Tachoscope provides real-time voice guidance to alert heavy-vehicle drivers when their vehicle begins to drift across lane markings, addressing one of the most dangerous and frequent causes of heavy-vehicle road incidents. The wide footprint of buses and trucks amplifies the consequences of even minor lane deviations, making this model essential for national highway fleets. The system's sensitivity is calibrated to heavy-vehicle track widths and standard Nigerian road lane dimensions.",
+    "price_ngn": 510000,
+    "length_cm": 22.0,
+    "width_cm": 15.0,
+    "height_cm": 8.0,
+    "weight_kg": 1.7,
+    "features": ["Voice assistance (lane crossing)"]
+  },
+  {
+    "sku": "BUTR-NS",
+    "product_type": "tachoscope",
+    "name": "Bus & Truck Tachoscope - Normal + Special",
+    "description": "This Bus & Truck combination unit integrates precise digital speed data with voice-based speed-limit advisories in a single heavy-duty dashboard instrument, giving commercial vehicle operators complete speed compliance visibility on all route types. It is particularly valuable for transport companies that need verifiable speed records alongside real-time driver advisories. The dual-system design requires a single installation point on the vehicle's dashboard.",
+    "price_ngn": 495000,
+    "length_cm": 22.0,
+    "width_cm": 15.0,
+    "height_cm": 8.0,
+    "weight_kg": 1.8,
+    "features": ["Digital speed display", "Voice assistance (speed limits)"]
+  },
+  {
+    "sku": "BUTR-NL",
+    "product_type": "tachoscope",
+    "name": "Bus & Truck Tachoscope - Normal + Lane Assist.",
+    "description": "Combining digital speed monitoring with lane-crossing voice guidance, this variant gives heavy-vehicle drivers simultaneous awareness of their speed and their lateral position on the road. It is an essential safety upgrade for articulated lorries and long-body buses operating on dual-carriageways where lane discipline is both legally required and safety-critical. The two independent circuits ensure continuous operation even if one subsystem requires servicing.",
+    "price_ngn": 510000,
+    "length_cm": 22.0,
+    "width_cm": 15.0,
+    "height_cm": 8.0,
+    "weight_kg": 1.8,
+    "features": ["Digital speed display", "Voice assistance (lane crossing)"]
+  },
+  {
+    "sku": "BUTR-SL",
+    "product_type": "tachoscope",
+    "name": "Bus & Truck Tachoscope - Special + Lane Assist.",
+    "description": "The Special + Lane Assist Bus & Truck model provides dual-audio protection — speed-limit voice warnings combined with lane-deviation alerts — for heavy-vehicle operators who prioritise regulatory compliance and lane discipline above all else. It is the preferred choice for fleet managers conducting FRSC compliance audits and corporate transport safety programmes. Each system uses a distinct audio signal so drivers can instantly identify the type of alert without taking their eyes off the road.",
+    "price_ngn": 555000,
+    "length_cm": 24.0,
+    "width_cm": 16.0,
+    "height_cm": 10.0,
+    "weight_kg": 2.0,
+    "features": [
+      "Voice assistance (speed limits)",
+      "Voice assistance (lane crossing)"
+    ]
+  },
+  {
+    "sku": "BUTR-NSL",
+    "product_type": "tachoscope",
+    "name": "Bus & Truck Tachoscope - Normal + Special + Lane Assist.",
+    "description": "The full-specification Bus & Truck Tachoscope combines digital speed display, speed-limit voice advisories, and lane-crossing alerts into one premium heavy-vehicle safety instrument. It is the definitive standard for fleet operators, transport regulators, and road-safety agencies who require complete driver-assistance data on every journey. The unit is factory-calibrated for heavy-vehicle dynamics and pre-configured to Nigerian highway speed and lane regulations.",
+    "price_ngn": 555000,
+    "length_cm": 24.0,
+    "width_cm": 16.0,
+    "height_cm": 10.0,
+    "weight_kg": 2.2,
+    "features": [
+      "Digital speed display",
+      "Voice assistance (speed limits)",
+      "Voice assistance (lane crossing)"
+    ]
+  },
+  {
+    "sku": "BUTR-NSL-SA",
+    "product_type": "tachoscope",
+    "name": "Bus & Truck Tachoscope - Special AIDS",
+    "description": "The Special AIDS Bus & Truck Tachoscope is the ultimate assistive safety system for heavy commercial vehicles, integrating the full Normal + Special + Lane Assist suite with an automated steering-redirection mechanism engineered for the power and inertia of buses and articulated trucks. Designed for drivers with physical limitations operating large vehicles, it meets the most stringent assistive-mobility transport safety standards. The high-torque steering module is calibrated for heavy-vehicle axle loads and certified for highway-speed intervention.",
+    "price_ngn": 825000,
+    "length_cm": 30.0,
+    "width_cm": 20.0,
+    "height_cm": 15.0,
+    "weight_kg": 4.5,
+    "features": [
+      "Normal + Special + Lane Assist",
+      "Automated steering redirection"
+    ]
+  },
+  {
+    "sku": "H-STD",
+    "product_type": "tachoscope",
+    "name": "Hand held Tachoscope - Standard",
+    "description": "The Standard Hand-held Tachoscope is a professional-grade portable speed-measurement instrument designed for field inspectors, traffic enforcement officers, and road-safety engineers who require precise, on-the-spot velocity readings without permanent vehicle installation. Its ergonomic pistol grip and high-resolution digital display allow rapid, accurate measurements across all vehicle categories in a single device. The unit is battery-powered, dust-resistant, and calibrated to international speed-measurement standards.",
+    "price_ngn": 225000,
+    "length_cm": 18.0,
+    "width_cm": 10.0,
+    "height_cm": 5.0,
+    "weight_kg": 0.8,
+    "features": ["Handheld ergonomic design", "High precision"]
+  },
+  {
+    "sku": "HCSN-BASIC",
+    "product_type": "subscription",
+    "name": "Home Choice Security - Basic",
+    "description": "Essential smart security for private properties.",
+    "price_ngn": 150000,
+    "features": ["Basic sensor network", "Mobile alerts", "1 Year Warranty"]
+  },
+  {
+    "sku": "HCSN-STD",
+    "product_type": "subscription",
+    "name": "Home Choice Security - Standard",
+    "description": "Standard smart security with camera integration.",
+    "price_ngn": 350000,
+    "features": [
+      "Advanced cameras",
+      "Remote access",
+      "24/7 Monitoring",
+      "2 Year Warranty"
+    ]
+  },
+  {
+    "sku": "HCSN-PREM",
+    "product_type": "subscription",
+    "name": "Home Choice Security - Premium",
+    "description": "Full-scale corporate and private security integration.",
+    "price_ngn": 750000,
+    "features": [
+      "Perimeter locking",
+      "AI analytics",
+      "Concierge support",
+      "5 Year Warranty"
+    ]
+  },
+  {
+    "sku": "PES-ACAD-BASIC",
+    "product_type": "subscription",
+    "name": "Performance Evaluation Software - Academic Basic",
+    "description": "The Academic Basic tier provides universities, polytechnics, and research institutes with essential staff and student performance evaluation tools built specifically for an academic workflow. Core appraisal models cover teaching effectiveness, research output, and administrative performance at departmental level. Cloud-hosted with a simple, accessible interface that requires no IT infrastructure investment.",
+    "price_ngn": 50000,
+    "features": [
+      "Core academic appraisal models",
+      "Teaching & research metrics",
+      "Departmental user reports",
+      "Cloud storage & access",
+      "Email support"
+    ]
+  },
+  {
+    "sku": "PES-ACAD-STD",
+    "product_type": "subscription",
+    "name": "Performance Evaluation Software - Academic Standard",
+    "description": "The Academic Standard tier expands on the Basic package with 27 unique evaluation models covering the full spectrum of academic performance across teaching, research, community service, and administration. Advanced reporting tools allow heads of department and faculty deans to filter and compare performance data across cohorts and semesters. Designed to meet accreditation and quality-assurance documentation requirements for Nigerian tertiary institutions.",
+    "price_ngn": 120000,
+    "features": [
+      "27 unique evaluation models",
+      "Teaching, research & admin metrics",
+      "Departmental & faculty filtering",
+      "Advanced comparative reporting",
+      "Priority email support"
+    ]
+  },
+  {
+    "sku": "PES-ACAD-PREM",
+    "product_type": "subscription",
+    "name": "Performance Evaluation Software - Academic Premium",
+    "description": "The Academic Premium tier delivers enterprise-grade performance management for large universities and multi-campus academic institutions, including custom evaluation model design, API access for integration with existing HR or student information systems, and white-labelling options. Dedicated account management and priority support ensure seamless deployment across all faculties and campuses. Comprehensive audit trails and exportable analytics support NUC, NBTE, and accreditation reporting.",
+    "price_ngn": 250000,
+    "features": [
+      "Custom evaluation model design",
+      "Full API access for system integration",
+      "White-labelling & custom branding",
+      "Multi-campus deployment",
+      "Dedicated account manager & priority support"
+    ]
+  },
+  {
+    "sku": "PES-PUB-BASIC",
+    "product_type": "subscription",
+    "name": "Performance Evaluation Software - Public/Civil Service Basic",
+    "description": "The Public/Civil Service Basic tier provides ministries, agencies, and parastatals with a structured digital platform for conducting staff appraisals aligned with civil service performance management guidelines. Core evaluation models cover key performance indicators, punctuality, task completion, and conduct reporting for grade-level officers. The system produces standardised reports suitable for submission to the Office of the Head of Civil Service.",
+    "price_ngn": 60000,
+    "features": [
+      "Civil service KPI appraisal models",
+      "Grade-level officer reporting",
+      "Conduct & punctuality metrics",
+      "Cloud storage & access",
+      "Email support"
+    ]
+  },
+  {
+    "sku": "PES-PUB-STD",
+    "product_type": "subscription",
+    "name": "Performance Evaluation Software - Public/Civil Service Standard",
+    "description": "The Public/Civil Service Standard tier extends the Basic package with advanced multi-tier appraisal workflows that accommodate the hierarchical review structure of government ministries, covering directorate, department, and unit levels in a single unified system. Advanced analytics tools support promotion assessments, annual performance reviews, and capacity-development planning required by Federal and State civil service commissions. Built-in audit trails ensure full compliance with public-sector transparency requirements.",
+    "price_ngn": 140000,
+    "features": [
+      "Multi-level hierarchical appraisal workflows",
+      "Directorate, department & unit reporting",
+      "Promotion & review analytics",
+      "Audit trail & compliance logging",
+      "Priority support"
+    ]
+  },
+  {
+    "sku": "PES-PUB-PREM",
+    "product_type": "subscription",
+    "name": "Performance Evaluation Software - Public/Civil Service Premium",
+    "description": "The Public/Civil Service Premium tier provides the full spectrum of enterprise performance management for large government institutions, including custom model design for agency-specific mandates, API integration with IPPIS and existing HR platforms, and advanced workforce analytics for policy and budget planning. White-labelling allows the platform to be deployed under the institution's own identity. A dedicated implementation team ensures rapid, disruption-free rollout across multiple MDAs.",
+    "price_ngn": 280000,
+    "features": [
+      "Custom model design for agency mandates",
+      "API integration with IPPIS & HR systems",
+      "Enterprise workforce analytics",
+      "White-labelling & custom branding",
+      "Dedicated implementation team & priority support"
+    ]
+  },
+  {
+    "sku": "PES-CORP-BASIC",
+    "product_type": "subscription",
+    "name": "Performance Evaluation Software - Company/Corporate Basic",
+    "description": "The Company/Corporate Basic tier gives small and medium enterprises a structured digital appraisal system for tracking employee performance against business objectives, KPIs, and behavioural competencies. Straightforward evaluation templates covering sales performance, productivity, and professional conduct can be deployed without specialist HR expertise. Results are automatically compiled into clear management reports to support objective promotion and incentive decisions.",
+    "price_ngn": 75000,
+    "features": [
+      "Business KPI & competency appraisals",
+      "Sales, productivity & conduct metrics",
+      "Automated management reports",
+      "Cloud storage & access",
+      "Email support"
+    ]
+  },
+  {
+    "sku": "PES-CORP-STD",
+    "product_type": "subscription",
+    "name": "Performance Evaluation Software - Company/Corporate Standard",
+    "description": "The Company/Corporate Standard tier delivers a full performance management suite for mid-to-large organisations, covering 360-degree appraisals, goal-setting frameworks, and department-level performance benchmarking aligned with corporate strategy. Advanced reporting enables HR managers and C-suite executives to identify top performers, skill gaps, and training needs with data-driven precision. Multi-department filtering and comparative analytics support quarterly and annual business reviews.",
+    "price_ngn": 160000,
+    "features": [
+      "360-degree appraisal framework",
+      "Goal-setting & OKR alignment",
+      "Department-level benchmarking",
+      "HR & executive analytics dashboard",
+      "Priority support"
+    ]
+  },
+  {
+    "sku": "PES-CORP-PREM",
+    "product_type": "subscription",
+    "name": "Performance Evaluation Software - Company/Corporate Premium",
+    "description": "The Company/Corporate Premium tier is the definitive enterprise performance platform for large corporations and conglomerates, offering custom evaluation model design, full API access for integration with ERP and HRMS platforms, succession planning modules, and white-labelling for group-wide deployment under a unified corporate identity. Real-time workforce intelligence dashboards provide board-level visibility into organisational performance trends. A dedicated account manager and SLA-backed support ensure continuous platform availability.",
+    "price_ngn": 320000,
+    "features": [
+      "Custom evaluation model design",
+      "Full API access for ERP & HRMS integration",
+      "Succession planning module",
+      "White-labelling & corporate branding",
+      "Dedicated account manager & SLA support"
+    ]
+  }
+]

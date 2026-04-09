@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[ACTION REQUIRED] New Tachoscope Order – Hooaij</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        color: #4a4a4a;
+        max-width: 620px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f6f8;
+      }
+      .email-container {
+        background-color: #ffffff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+      /* ── Header ─────────────────────────── */
+      .header {
+        background-color: #1e1e1e;
+        padding: 28px 30px;
+        text-align: center;
+      }
+      .header img {
+        max-width: 140px;
+        height: auto;
+        display: block;
+        margin: 0 auto 12px;
+      }
+      .header .tagline {
+        color: #e57825;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 0;
+      }
+      /* ── Action Banner ──────────────────── */
+      .action-banner {
+        background: linear-gradient(135deg, #e57825 0%, #cc6012 100%);
+        padding: 24px 30px;
+        text-align: center;
+        position: relative;
+      }
+      .action-banner .action-badge {
+        background: #ffffff;
+        color: #e57825;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 4px 14px;
+        border-radius: 50px;
+        display: inline-block;
+        margin-bottom: 12px;
+      }
+      .action-banner h2 {
+        color: #ffffff;
+        margin: 0 0 6px;
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .action-banner p {
+        color: rgba(255, 255, 255, 0.88);
+        margin: 0;
+        font-size: 14px;
+      }
+      /* ── Content ────────────────────────── */
+      .content {
+        padding: 34px;
+      }
+      .content > p {
+        color: #4a4a4a;
+        margin: 0 0 12px;
+        font-size: 15px;
+      }
+      .content h3 {
+        color: #121212;
+        font-size: 14px;
+        margin: 24px 0 8px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        padding-bottom: 6px;
+        border-bottom: 2px solid #e57825;
+        display: inline-block;
+      }
+      /* ── Details Box ────────────────────── */
+      .details-box {
+        background-color: #f5f6f8;
+        border-radius: 8px;
+        padding: 14px 20px;
+        margin: 10px 0 20px;
+      }
+      .detail-row {
+        display: table;
+        width: 100%;
+        padding: 7px 0;
+        border-bottom: 1px dashed #eaeaea;
+        font-size: 14px;
+      }
+      .detail-row:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+      .detail-label {
+        display: table-cell;
+        font-weight: 700;
+        color: #121212;
+        width: 170px;
+        vertical-align: top;
+      }
+      .detail-value {
+        display: table-cell;
+        color: #4a4a4a;
+        vertical-align: top;
+      }
+      /* ── Physical Specs Box ─────────────── */
+      .specs-box {
+        background: #121212;
+        border-radius: 8px;
+        padding: 18px 22px;
+        margin: 10px 0 20px;
+      }
+      .specs-grid {
+        display: table;
+        width: 100%;
+      }
+      .spec-item {
+        display: table-cell;
+        text-align: center;
+        padding: 8px;
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .spec-item:last-child {
+        border-right: none;
+      }
+      .spec-value {
+        color: #e57825;
+        font-size: 20px;
+        font-weight: 700;
+        display: block;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .spec-label {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: block;
+        margin-top: 4px;
+      }
+      /* ── Alert Box ──────────────────────── */
+      .alert-box {
+        background: #fff8f2;
+        border: 1px solid #f0c490;
+        border-left: 4px solid #e57825;
+        border-radius: 0 8px 8px 0;
+        padding: 14px 18px;
+        margin: 20px 0;
+        font-size: 14px;
+      }
+      /* ── Status Badge ───────────────────── */
+      .status-paid {
+        background: #27ae60;
+        color: #fff;
+        padding: 3px 12px;
+        border-radius: 50px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: inline-block;
+      }
+      /* ── CTA Button ─────────────────────── */
+      .btn-wrap {
+        text-align: center;
+        margin: 28px 0 10px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 14px 36px;
+        background-color: #e57825;
+        color: #ffffff !important;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 15px;
+      }
+      /* ── Footer ─────────────────────────── */
+      .footer {
+        background-color: #1e1e1e;
+        padding: 22px 34px;
+        text-align: center;
+      }
+      .footer p {
+        margin: 0 0 6px;
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.7);
+      }
+      .footer .brand {
+        color: #e57825;
+        font-weight: 700;
+      }
+      .footer .disclaimer {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.4);
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <!-- Header -->
+      <div class="header">
+        <img
+          src="https://hooaij.com/wp-content/uploads/2026/02/new-logo.png"
+          alt="Hooaij Logo"
+        />
+        <p class="tagline">Dispatch &amp; Installation Notice</p>
+      </div>
+
+      <!-- Action Banner -->
+      <div class="action-banner">
+        <div class="action-badge">⚡ Action Required</div>
+        <h2>New Tachoscope Device Order</h2>
+        <p>Please arrange delivery and installation for the order below</p>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        <div class="alert-box">
+          <strong>📦 Dispatch Required:</strong> A customer has purchased a
+          Tachoscope device and payment has been confirmed. Please process this
+          order and contact the customer to arrange delivery.
+        </div>
+
+        <h3>Order Reference</h3>
+        <div class="details-box">
+          <div class="detail-row">
+            <span class="detail-label">Receipt No:</span>
+            <span class="detail-value"><strong>{{receipt_no}}</strong></span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Payment Status:</span>
+            <span class="detail-value"
+              ><span class="status-paid">Paid – Confirmed</span></span
+            >
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Amount Collected:</span>
+            <span class="detail-value"
+              ><strong style="color: #e57825">${{amount_usd}}</strong> (≈
+              ₦{{amount_ngn}})</span
+            >
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">PayPal Capture ID:</span>
+            <span
+              class="detail-value"
+              style="font-size: 12px; word-break: break-all"
+              >{{paypal_capture_id}}</span
+            >
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Order Date:</span>
+            <span class="detail-value">{{order_date}}</span>
+          </div>
+        </div>
+
+        <h3>Device Details</h3>
+        <div class="details-box">
+          <div class="detail-row">
+            <span class="detail-label">Product Name:</span>
+            <span class="detail-value"><strong>{{product_name}}</strong></span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">SKU:</span>
+            <span class="detail-value"
+              ><code
+                style="
+                  background: #eaeaea;
+                  padding: 2px 6px;
+                  border-radius: 3px;
+                "
+                >{{sku}}</code
+              ></span
+            >
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Quantity Ordered:</span>
+            <span class="detail-value"><strong>{{quantity}}</strong></span>
+          </div>
+        </div>
+
+        <h3>Physical Specifications</h3>
+        <div class="specs-box">
+          <div class="specs-grid">
+            <div class="spec-item">
+              <span class="spec-value">{{length_cm}} cm</span>
+              <span class="spec-label">Length</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-value">{{width_cm}} cm</span>
+              <span class="spec-label">Width</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-value">{{height_cm}} cm</span>
+              <span class="spec-label">Height</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-value">{{weight_kg}} kg</span>
+              <span class="spec-label">Weight</span>
+            </div>
+          </div>
+        </div>
+
+        <h3>Customer &amp; Delivery Information</h3>
+        <div class="details-box">
+          <div class="detail-row">
+            <span class="detail-label">Customer Name:</span>
+            <span class="detail-value">{{customer_name}}</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Phone Number:</span>
+            <span class="detail-value"
+              ><a href="tel:{{customer_phone}}" style="color: #e57825"
+                >{{customer_phone}}</a
+              ></span
+            >
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Email Address:</span>
+            <span class="detail-value"
+              ><a href="mailto:{{customer_email}}" style="color: #e57825"
+                >{{customer_email}}</a
+              ></span
+            >
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Delivery Address:</span>
+            <span class="detail-value"
+              ><strong>{{shipping_address}}</strong></span
+            >
+          </div>
+        </div>
+
+        <div class="btn-wrap">
+          <a href="{{company_website}}" class="btn"
+            >Confirm Receipt of Order →</a
+          >
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <p>
+          This notification was sent automatically by the
+          <span class="brand">Hooaij</span> order system.
+        </p>
+        <p>
+          For queries:
+          <a href="mailto:info@hooaij.com" style="color: #e57825"
+            >info@hooaij.com</a
+          >
+          | +234 803 580 9083
+        </p>
+        <p class="disclaimer">
+          &copy; {{year}} Hooaij. All Rights Reserved. Designed by Halogenius
+          Ideas.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

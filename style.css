@@ -1,0 +1,23 @@
+/*
+Theme Name: Hooaij
+Theme URI: https://hooaij.com/
+Author: Halogenius Ideas
+Author URI: https://halogenius.com/
+Description: Delivering Products & Services at Exquisite Value. We provide custom-designed solutions that combine innovation, safety, and performance.
+Version: 1.3.0
+Text Domain: hooaij
+*/
+
+/* Include the main CSS which handles all the styling */
+@import url("css/style.css");
+
+/* Admin Bar Fixes for Fixed Header */
+body.admin-bar .header {
+  top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+  body.admin-bar .header {
+    top: 46px;
+  }
+}
